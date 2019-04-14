@@ -12,7 +12,7 @@ let createApolloClient =
       ~connectToDevTools=?,
       ~queryDeduplication=?,
       (),
-    ) => {
+    ) =>
   createApolloClientJS(
     apolloClientObjectParam(
       ~link,
@@ -23,7 +23,6 @@ let createApolloClient =
       ~queryDeduplication?,
     ),
   );
-};
 
 /*
  * Expose a module to perform "query" operations for the given client
